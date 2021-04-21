@@ -1,0 +1,7 @@
+user = input("please enter your name: ")
+message1 = "Hello, Joseph! The password is : W@12"
+message2 = "Hello, Amina! See you later."
+if user == "Joseph":
+  print(message1)
+else :
+  print(message2)
