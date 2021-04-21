@@ -1,0 +1,20 @@
+q1 = input("Are you a cigarette addict older than 75 years old?") #only enter Yes or No
+q2 = input("Do you have a severe chronic disease?") #only enter Yes or No
+q3 = input("Is your immune system too weak?") #only enter Yes or No
+if q1 == "Yes":
+  age = "True"
+  if q1 == "No":
+    age = "False"
+if q2 == "Yes":
+  age = "True"
+  if q2 == "No":
+    age = "False"
+if q3 == "Yes":
+  age = "True"
+  if q3 == "No":
+    age = "False"
+risk = (age or chronic or immune)
+if risk == "True":
+  print("You are in risky group")
+if risk == "False":
+  print("You are not in risky group")
